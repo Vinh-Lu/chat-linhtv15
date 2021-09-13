@@ -2,12 +2,12 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
-
+console.log(__dirname)
 // Initialize appication with route / (that means root of the application)
 app.get('/', function(req, res){
   var express=require('express');
   app.use(express.static(path.join(__dirname)));
-  res.sendFile(path.join(__dirname, '../chat-linhtv15', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Register events on socket connection
