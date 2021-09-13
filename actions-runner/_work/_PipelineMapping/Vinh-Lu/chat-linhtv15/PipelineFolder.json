@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "Vinh-Lu/chat-linhtv15",
+  "pipelineDirectory": "chat-linhtv15",
+  "workspaceDirectory": "chat-linhtv15\\chat-linhtv15",
+  "repositories": {
+    "Vinh-Lu/chat-linhtv15": {
+      "repositoryPath": "chat-linhtv15\\chat-linhtv15",
+      "lastRunOn": "09/13/2021 22:21:33 +07:00"
+    }
+  },
+  "lastRunOn": "09/13/2021 22:28:02 +07:00"
+}
